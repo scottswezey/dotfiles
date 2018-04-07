@@ -14,14 +14,14 @@
     # ~/dotfiles: ''
     ~/.bash_profile: misc/.bash_profile
     ~/.gitconfig: git/.gitconfig
-    ~/ssh/config: ~/ssh/config
-    ~/system/.alias: ~/system/.alias
-    ~/system/.env: ~/system/.env
-    ~/system/.functions: ~/system/.functions
-    ~/system/.inputrc: ~/system/.inputrc
-    ~/system/.prompt: ~/system/.prompt
+    ~/ssh/config: ssh/config
+    ~/system/.alias: system/.alias
+    ~/system/.env: system/.env
+    ~/system/.functions: system/.functions
+    ~/system/.inputrc: system/.inputrc
+    ~/system/.prompt: system/.prompt
     ~/.tmux.conf: misc/.tmux.conf
-    ~/.vim: ~/.vim
+    ~/.vim: .vim
     ~/.vimrc: misc/.vimrc
 
 - shell:
