@@ -14,6 +14,7 @@
     # ~/dotfiles: ''
     ~/.bash_profile: misc/.bash_profile
     ~/.gitconfig: git/.gitconfig
+    ~/start_tmux.sh: misc/start_tmux.sh
     ~/system/.alias: system/.alias
     ~/system/.env: system/.env
     ~/system/.functions: system/.functions
@@ -24,4 +25,5 @@
     ~/.vimrc: misc/.vimrc
 
 - shell:
+  - [chmod +x ~/start_tmux.sh]
   - [git submodule update --init --recursive, Installing submodules]
