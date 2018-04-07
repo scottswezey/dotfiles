@@ -5,8 +5,5 @@ My work in progress dotfile repo, based on https://medium.com/@webprolific/getti
 ## Installing
 Use `install` to symlink everything into place. It's actually [Dotbot](https://github.com/anishathalye/dotbot)
 
-## Secrets
-TBD
-
-## Mac specific
-TBD
+## Secrets & Mac specific
+As suggested by Dotbot, these are kept in a different repo. Files in this repo have override code to handle the override files if they are present.
