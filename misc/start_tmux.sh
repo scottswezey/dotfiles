@@ -1,4 +1,4 @@
-tmux has-session -t $user
+tmux has-session -t $USER
 if [ $? != 0 ]
 then
   tmux new-session -s $USER -d
