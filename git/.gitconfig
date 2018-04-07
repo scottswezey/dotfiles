@@ -1,0 +1,19 @@
+[push]
+        default = simple
+[user]
+        name = Scott Swezey
+        email = scottswezey@users.noreply.github.com
+[filter "media"]
+        required = true
+        clean = git media clean %f
+        smudge = git media smudge %f
+[filter "hawser"]
+        clean = git hawser clean %f
+        smudge = git hawser smudge %f
+        required = true
+[credential]
+        helper = osxkeychain
+[core]
+        autocrlf = input
+[include]
+        path = ~/.gitconfig_local
