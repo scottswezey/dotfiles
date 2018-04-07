@@ -20,4 +20,6 @@
     ~/.vimrc: misc/.vimrc
 
 - shell:
+  - [mkdir -p ~/system]
+  - [mkdir -p ~/ssh]
   - [git submodule update --init --recursive, Installing submodules]
