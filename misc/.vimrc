@@ -69,7 +69,7 @@ syntax enable
 set background=light
 colorscheme solarized
 
-# Stuff I think will be useful
+" Stuff I think will be useful
 set showcmd
 set hlsearch
 set ignorecase
