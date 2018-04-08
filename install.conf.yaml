@@ -22,7 +22,6 @@
     ~/system/.prompt: system/.prompt
     ~/.tmux.conf: misc/.tmux.conf
     ~/.vim: vim
-    ~/.vimrc: misc/.vimrc
 
 - shell:
   - [chmod +x ~/start_tmux.sh]
